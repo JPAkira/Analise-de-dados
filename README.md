@@ -22,4 +22,4 @@ O job roda diariamente atualizando o banco de dados e gerando o arquivo de respo
 http://127.0.0.1:8000/api/top10citacoes/
 ```
 
-#  Retorno dos CSVs em "ingestor/data/" contendo top 1 categoria news e top 10 categoria music e books. É atualizado diariamente
+#  Retorno dos CSVs em "BASE_DIR/ingestor/data/" contendo top 1 categoria news e top 10 categoria music e books. É atualizado diariamente
