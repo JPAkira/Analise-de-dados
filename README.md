@@ -17,6 +17,11 @@ python manage.py migrate
 O job roda diariamente atualizando o banco de dados e gerando o arquivo de resposta a partir do arquivo contido em "ingestor/data/AppleStore.csv"
 ```
 
+# Para rodar manualmente:
+```
+python manage.py runjobs daily
+```
+
 # Api com o top 10 mais citados na própria API:
 ```
 http://127.0.0.1:8000/api/top10citacoes/
